@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(images/backgrnd.jpg);
+    color: black;
+    height: 600px;
+}
+.logo{
+    color: black;
+    font-size: 40px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.menu a:hover{
+    background-color: white;
+    color: white;
+    transition: 0.4;
+    color: black;
+    border-radius: 2px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    color: rgb(130, 130, 133);
+}
+.text{
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 450px;
+}
+.text h1{
+    font-size: 45px;
+    margin: 10px 0px;
+}
+.text p{
+    font-size: 22px;
+}
+.hire{
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hire:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+#about{
+    padding: 100px 50px;
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}
+.section-info h1{
+    font-size: 50px;
+}
+.about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-right-col{
+    flex-basis: 50%;
+    font-size: 18px;
+}
+#p-first{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#p-second{
+    font-size: 20px;
+}
+.about-right-col p{
+    font-size: 20px;
+    text-align: justify;
+}
+#skills {
+    padding: 100px 50px;
+    background: url("images/bg2.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(45, 52, 54);
+    padding: 50px;
+}
+
+.skills_leftcol {
+    padding-top: 10px;
+    flex-basis: 50%;
+    text-align: justify;
+    order: 1;
+    padding-right: 30px;
+}
+
+.skills_leftcol p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.skills_rightcol {
+    flex-basis: 50%;
+    order: 2;
+    padding-left: 70px;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.progress-div {
+    width: 70%;
+    text-align: left;
+}
+
+.progress-div p {
+    margin: 0px;
+    font-size: 18px;
+    padding-left: 0;
+    text-align: left;
+}
+
+progress {
+    width: 80%;
+    height: 15px;
+    margin-bottom: 25px;
+}
+.progess-div p .percentage{
+    margin-top: 12px;
+}
+#projects{
+    padding: 100px 50px;
+}
+.projects_row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.projects_box{
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 3px 5px grey;
+    padding: 20px;
+    margin-top: 40px;
+}
+.projects_box:hover{
+    background: rgb(244, 244, 249);
+    color: black;
+    transition: 0.4s;
+}
+#contact{
+    padding: 100px 50px;
+    background: linear-gradient(160deg, rgb(45, 52, 54) 45%, white 0%
+    );
+}
+#contact h1{
+    color: white;
+    text-align: left;
+}
+.contact_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact_left_col{
+    flex-basis: 50%;
+}
+.contact_right_col{
+    flex-basis: 50%;
+    position: relative;
+    top: 30px;
+}
+.contact_right_col form{
+    text-align: center;
+}
+.contact_right_col form h2{
+    margin-bottom: 20px;
+}
+.contact_right_col form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+   
+}
+.contact_right_col form textarea{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+.contact_right_col button{
+    color: rgb(16, 16, 53);
+}
+
+footer {
+    background-color: rgb(45, 52, 54);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+.social-icons a:hover {
+    color: #b5cde6; 
+}
